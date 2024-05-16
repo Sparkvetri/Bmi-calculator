@@ -1,0 +1,81 @@
+ body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3436;
+ }
+ .container {
+    width: 800px;
+    height: 500px;
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    display: flex;
+ }
+ .box {
+    width: 350px;
+    background-image: url('./assets/calculator.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.data {
+    flex: 1;
+    padding: 20px ;
+    
+}
+h2 {
+    color: #0984e3;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-container label {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+.bmi {
+    padding: 5px ;
+    border: 3px solid #11b4e1;
+    outline: none;
+} 
+.btn-div {
+    margin-top: 40px ;
+    text-align: center;
+}
+.btn-div button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: cornflowerblue;
+    border-radius: 5px ;
+    cursor: pointer;
+    
+}
+#clear-btn {
+    margin-left: 40px;
+    background-color: red;
+    color: #dfe6e9;
+}
+ 
+.valid {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+.btn-div button:hover {
+    background-color: #fff;
+    color: #2d3436;
+}
+.result {
+    border: 2px solid #11b4e1;
+    margin-top: 10px ;
+}
